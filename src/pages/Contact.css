@@ -1,0 +1,22 @@
+
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+.credits-section {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.credits-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
