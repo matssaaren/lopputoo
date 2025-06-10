@@ -32,3 +32,18 @@ a:hover {
 .bottom-line {
   border-bottom: var(--secondary-color) solid 1vh;
 }
+
+button {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-family: var(--text-secondary-font);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: var(--tertiary-color);
+}
