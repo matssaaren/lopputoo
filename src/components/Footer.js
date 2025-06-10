@@ -9,13 +9,13 @@ const Footer = () => {
       <ul className='footer-list'>
         <li>
           <Link className='footer-list-item' to="/">
-            <i class="iconoir-home-simple"></i>
+            <i className="iconoir-home-simple"></i>
             Home
           </Link>
         </li>
-        <li><Link className='footer-list-item' to="/info"><i class="iconoir-info-circle"></i>Info</Link></li>
-        <li><Link className='footer-list-item' to="/gallery"><i class="iconoir-media-image"></i>Gallery</Link></li>
-        <li><Link className='footer-list-item' to="/contact"><i class="iconoir-message"></i>Contact</Link></li>
+        <li><Link className='footer-list-item' to="/info"><i className="iconoir-info-circle"></i>Info</Link></li>
+        <li><Link className='footer-list-item' to="/gallery"><i className="iconoir-media-image"></i>Gallery</Link></li>
+        <li><Link className='footer-list-item' to="/contact"><i className="iconoir-message"></i>Contact</Link></li>
       </ul>
     </nav>
   );
