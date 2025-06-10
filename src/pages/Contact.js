@@ -1,7 +1,8 @@
 import BigCard from "../components/Card-big";
+import './Contact.css';
 function Contact() {
   return (
-    <div >
+    <div className="contact-page">
       <h1>Contacts</h1>
       <BigCard
         title="Contact Us"

@@ -8,6 +8,12 @@
   display: flex;
   flex-direction: column;
   border: 3px solid var(--tertiary-color);
+  box-shadow: 0 4px 16px rgba(14, 33, 72, 0.15);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.big-card:hover {
+  box-shadow: 0 8px 24px rgba(121, 101, 193, 0.25);
 }
 
 
@@ -45,6 +51,10 @@
   opacity: 0.75;
 
 
+}
+
+.big-card-link:hover {
+  color: var(--accent-color);
 }
 
 .big-card-description {
