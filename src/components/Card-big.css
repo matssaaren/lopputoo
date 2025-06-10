@@ -1,0 +1,55 @@
+.big-card {
+  background: var(--secondary-color);
+  border-radius: 1rem;
+  overflow: hidden;
+  color: var(--text-color);
+  width: 100%;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid var(--tertiary-color);
+}
+
+
+.big-card-image {
+  /* width: 100%; */
+  /* height: 200px; */
+  object-fit: cover;
+  background: var(--primary-color);
+}
+
+.big-card-content {
+  padding: 1.5rem;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.big-card-title {
+  font-family: "Audiowide", sans-serif;
+  font-size: 1.5rem;
+  margin: 0;
+  color: var(--accent-color);
+}
+
+.big-card-link {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s;
+  /* stick to bottom of card */
+  margin-top: auto;
+    /* margin-bottom: 0.5rem; */
+  font-family: var(--text-secondary-font);
+  opacity: 0.75;
+
+
+}
+
+.big-card-description {
+  font-family: var(--text-secondary-font);
+  color: var(--text-color);
+  font-size: 1rem;
+  margin: 0;
+}

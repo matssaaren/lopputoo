@@ -1,13 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Geo:ital@0;1&display=swap');
+:root {
+  --primary-color: #0E2148;     /* Backgrounds, headers */
+  --secondary-color: #483AA0;   /* Buttons, nav hover */
+  --tertiary-color: #7965C1;    /* Hover states, badges */
+  --accent-color: #E3D095;      /* CTAs, icons, link highlights */
+  --text-color: #ffffff;        /* For text on dark backgrounds */
+  --text-secondary-font: "Geo", sans-serif; /* Secondary text, muted elements */
+}
+html {
+  height: 100%;
+}
 body {
+  height: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background-color: var(--primary-color);
+  font-size: 1rem;
+  font-family: "Audiowide", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1, h2, h3, h4, h5, h6, p, a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+.bottom-line {
+  border-bottom: var(--secondary-color) solid 1vh;
 }
