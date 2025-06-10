@@ -1,5 +1,7 @@
 import BigCard from "../components/Card-big";
+
 import Card from "../components/Card";
+
 import './Contact.css';
 function Contact() {
   return (
