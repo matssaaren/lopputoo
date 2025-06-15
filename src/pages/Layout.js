@@ -4,6 +4,11 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 const Layout = () => {
+  
+  useLayoutEffect(() => {
+      window.scrollTo(0, 0)
+  });
+  
   return (
     <>
       <div className="App">
