@@ -5,12 +5,14 @@ import Home from "./pages/Home";
 import Info from "./pages/Info";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
+import ScrollToTop from './components/ScrollToTop';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
+    <ScrollToTop />
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
