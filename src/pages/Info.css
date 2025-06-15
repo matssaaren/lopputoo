@@ -10,6 +10,15 @@
     text-align: center;
 }
 
+ul {
+    color: var(--text-color);
+}
+
+li {
+    margin: 0.5rem 0;
+    text-align: left;
+}
+
 .info-page img {
     max-width: 100%;
     border-radius: 0.5rem;

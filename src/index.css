@@ -24,6 +24,24 @@ h1, h2, h3, h4, h5, h6, p, a {
   text-decoration: none;
 }
 
+.text2 {
+  font-family: var(--text-secondary-font);
+  font-size: 1.1rem;
+}
+
+.mar0 {
+  margin: 0;
+}
+.mar1 {
+  margin: 1rem;
+}
+.mar2 {
+  margin: 2rem;
+}
+.mar3 {
+  margin: 3rem;
+}
+
 a:hover {
   color: var(--accent-color);
   text-decoration: underline;

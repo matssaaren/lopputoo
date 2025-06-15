@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <nav className="header">
-      <h1 className="header-title">Cybernetics</h1>
+      <h1 className="header-title">🤖Cybernetics</h1>
 
       <div className="hamburger" onClick={toggleMenu}>
         ☰

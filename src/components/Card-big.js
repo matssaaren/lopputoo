@@ -7,6 +7,14 @@ function BigCard({ title, description, imageUrl }) {
       <div className="big-card-content">
         <h2 className="big-card-title">{title}</h2>
         <p className="big-card-description">{description}</p>
+        <a
+          href="https://github.com/matssaaren"
+          className="big-card-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub Profile
+        </a>
       </div>
     </div>
   );
