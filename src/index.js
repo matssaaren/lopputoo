@@ -15,7 +15,7 @@ root.render(
     <ScrollToTop />
     <Routes>
       <Route path="/" element={<Layout />}>
-        <Route index element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="info" element={<Info />} />
         <Route path="gallery" element={<Gallery />} />
         <Route path="contact" element={<Contact />} />
