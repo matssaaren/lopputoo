@@ -1,7 +1,7 @@
 {
   "name": "my-react-app",
   "version": "0.1.0",
-  "homepage": "https://matssaaren.github.io/lopputoo/",
+  "homepage": "https://matssaaren.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
