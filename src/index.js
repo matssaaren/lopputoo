@@ -5,7 +5,6 @@ import Home from "./pages/Home";
 import Info from "./pages/Info";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
-import NoPage from "./pages/NoPage";
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
@@ -18,7 +17,7 @@ root.render(
         <Route path="info" element={<Info />} />
         <Route path="gallery" element={<Gallery />} />
         <Route path="contact" element={<Contact />} />
-        <Route path="*" element={<NoPage />} />
+        <Route path="*" element={<Home />} />
       </Route>
     </Routes>
   </BrowserRouter>
