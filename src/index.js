@@ -5,7 +5,6 @@ import Home from "./pages/Home";
 import Info from "./pages/Info";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
-import NoPage from "./pages/NoPage";
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
