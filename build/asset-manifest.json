@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/lopputoo/static/css/main.abf0e207.css",
+    "main.js": "/lopputoo/static/js/main.7672a557.js",
+    "static/js/453.ad6eb26e.chunk.js": "/lopputoo/static/js/453.ad6eb26e.chunk.js",
+    "index.html": "/lopputoo/index.html",
+    "main.abf0e207.css.map": "/lopputoo/static/css/main.abf0e207.css.map",
+    "main.7672a557.js.map": "/lopputoo/static/js/main.7672a557.js.map",
+    "453.ad6eb26e.chunk.js.map": "/lopputoo/static/js/453.ad6eb26e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abf0e207.css",
+    "static/js/main.7672a557.js"
+  ]
+}

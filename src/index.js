@@ -18,7 +18,7 @@ root.render(
         <Route path="info" element={<Info />} />
         <Route path="gallery" element={<Gallery />} />
         <Route path="contact" element={<Contact />} />
-        <Route path="*" element={<NoPage />} />
+        <Route path="*" element={<Home />} />
       </Route>
     </Routes>
   </BrowserRouter>
